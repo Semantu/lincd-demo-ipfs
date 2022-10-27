@@ -1,0 +1,38 @@
+.home {
+  pre {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    word-wrap: break-word;      /* IE */
+  }
+
+}
+.iframe {
+  width:100%;
+  height:50vh;
+  border:1px solid #444;
+  margin: 1rem 0;
+  background-color:white;
+}
+.personList {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding:0;
+  margin:1rem 0;
+  @media(max-width:600px) {
+    grid-template-columns: 1fr;
+  }
+  grid-gap:1rem;
+  li {
+    box-shadow:2px 2px 4px #44444444;
+    padding:1rem;
+    list-style:none;
+    background-color:white;
+   }
+  span {
+    float:right;
+    color:darkred;
+    cursor:pointer;
+  }
+}

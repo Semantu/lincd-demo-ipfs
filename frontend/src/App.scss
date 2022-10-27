@@ -1,0 +1,48 @@
+.error {
+  color: white;
+  margin: 2rem;
+
+  pre {
+    white-space: pre-wrap;
+    padding: 1rem;
+  }
+}
+
+.content {
+  display: block;
+  background-color: #f3f3f3;
+  box-shadow: 2px 2px 2px rgba(68, 68, 68, 0.3);
+  padding: 1rem;
+  margin: 1rem 0;
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    margin: 0.5rem 0;
+
+    pre {
+      padding: 1rem;
+      background-color: #bfe7fc;
+    }
+  }
+}
+
+.main {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  width: 66.6%;
+  @media(max-width:600px) {
+    width:90%
+  }
+  margin: auto;
+}
+
+.header {
+  display: block;
+}
+
+.menu {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+}
