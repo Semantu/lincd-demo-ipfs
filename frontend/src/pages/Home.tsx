@@ -140,6 +140,7 @@ export default function Home() {
               <li>Clone this repository</li>
               <li><a href="https://console.filebase.com/signup" target='_blank'>Create an account</a> on Filebase if you don't already have one, and set up a new bucket for this demo.</li>
               <li>Open <code>./env-cmdrc.json</code> and copy your Filebase <a href={"https://console.filebase.com/keys"} target='_blank'>access keys</a> and the name of the bucket into this file.</li>
+              <li>Optionally, change the <code>SITE_ROOT</code> environment variable. For example if you're on an online code editor.</li>
               <li>(re)start the application</li>
             </ul>
           </>
