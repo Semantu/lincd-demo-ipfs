@@ -71,19 +71,16 @@ export default function Home() {
     <div className={style.home}>
       <p>
         This is a web application that runs on <a href="https://www.w3.org/standards/semanticweb/data">Linked Data</a>{' '}
-        stored on <a href="https://ipfs.tech/">IPFS</a>
+        which is stored on <a href="https://ipfs.tech/">IPFS</a>
         <br />
         <br />
-        See the source code and further description <a href="https://github.com/Semantu/lincd-demo-ipfs">here</a>
+        As such, this demo shows that we can combine the efficiency, intelligence and potential for collaboration of Linked Data  with
+        the decentralized and secure nature of blockchain technology. Thus creating a more powerful and unified <a href="https://www.investopedia.com/web-20-web-30-5208698">Web 3.0</a><br />
         <br />
-        {/*Full description in <a href={""}readme]*/}
-        {/*As such, this demo shows that we can combine the efficiency, intelligence and potential for collaboration of Linked Data  with*/}
-        {/*the decentralized and secure nature of blockchain technology. Thus creating a more powerful and unified <a href="https://www.investopedia.com/web-20-web-30-5208698">Web 3.0</a><br />*/}
-        {/*<br />*/}
-        {/*The app is built using the <a href="https://github.com/Semantu/lincd">LINCD.js</a> library and components from the <a href="https://www.lincd.org/">LINCD.org</a> repository.*/}
-        {/*LINCD.js makes developing an application with Linked Data easy. And storing the data on IPFS now just takes a few lines of code.<br />*/}
-        {/*<br />*/}
-        {/*Full source code here.<br />*/}
+        The app is built using the <a href="https://github.com/Semantu/lincd">LINCD.js</a> library and components from the <a href="https://www.lincd.org/">LINCD.org</a> repository.
+        LINCD.js makes developing an application with Linked Data easy. And storing the data on IPFS now just takes a few lines of code.<br />
+        <br />
+        See the source code, installation steps and further description <a href="https://github.com/Semantu/lincd-demo-ipfs">here</a>
         <br />
       </p>
       {cid !== null ? (
