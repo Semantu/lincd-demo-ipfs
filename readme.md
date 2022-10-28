@@ -1,6 +1,7 @@
-[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://codesandbox.io/p/github/Semantu/lincd-demo-ipfs/draft/winter-framework)
 # Linked Data on IPFS using LINCD.js
-/githubbox)This web application runs on [Linked Data](https://www.w3.org/standards/semanticweb/data) which is stored on [IPFS](https://ipfs.io/). 
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://codesandbox.io/p/github/Semantu/lincd-demo-ipfs/draft/winter-framework)
+
+This web application runs on [Linked Data](https://www.w3.org/standards/semanticweb/data) which is stored on [IPFS](https://ipfs.io/). 
 
 This demonstration, despite its straightforward use case, demonstrates how distributed ledger technology and semantic web technology can be used to enhance each other's strengths and produce better and more intelligent [web3](https://www.investopedia.com/web-20-web-30-5208698) experiences.
 
