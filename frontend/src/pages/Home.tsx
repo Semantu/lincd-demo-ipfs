@@ -69,20 +69,6 @@ export default function Home() {
 
   return (
     <div className={style.home}>
-      <p>
-        This is a web application that runs on <a href="https://www.w3.org/standards/semanticweb/data" target="_blank">Linked Data</a>{' '}
-        which is stored on <a href="https://ipfs.tech/" target="_blank">IPFS</a>
-        <br />
-        <br />
-        As such, this demo shows that we can combine the efficiency, intelligence and potential for collaboration of Linked Data  with
-        the decentralized and secure nature of blockchain technology. Thus creating a more powerful and unified <a href="https://www.investopedia.com/web-20-web-30-5208698" target="_blank">Web 3.0</a><br />
-        <br />
-        The app is built using the <a href="https://github.com/Semantu/lincd" target="_blank">LINCD.js</a> library and components from the <a href="https://www.lincd.org/">LINCD.org</a> repository.
-        LINCD.js makes developing an application with Linked Data easy. And storing the data on IPFS now just takes a few lines of code.<br />
-        <br />
-        See the source code, installation steps and further description <a target="_blank" href="https://github.com/Semantu/lincd-demo-ipfs">here</a>
-        <br />
-      </p>
       {cid !== null ? (
         <>
           <p>As an example, this demo stores a list of people. Go ahead and add a person:</p>
